@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Hydrogen: Auth Plugin'
+      'submenu': [
+        {
+          'label': 'Log in to gateway'
+          'command': 'hydrogen-auth:login-to-gateway'
+        }
+      ]
+    ]
+  }
+]

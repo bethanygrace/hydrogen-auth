@@ -1,0 +1,40 @@
+{
+  "name": "hydrogen-auth",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "A brute-force approach to remote gateway authentication",
+  "keywords": [
+    "hydrogen",
+    "jupyter",
+    "ipython"
+  ],
+  "consumedServices": {
+    "hydrogen.provider": {
+      "versions": {
+        "^1.0.0": "consumeHydrogen"
+      }
+    }
+  },
+  "repository": "https://github.com/nikitakit/hydrogen-auth",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+      "atom-space-pen-views": "^2.0.5",
+      "ws": "^1.1.1",
+      "xmlhttprequest": "^1.8.0"
+  },
+  "package-deps": [
+    "hydrogen"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
