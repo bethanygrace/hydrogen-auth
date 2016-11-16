@@ -1,7 +1,7 @@
 {
   "name": "hydrogen-auth",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A brute-force approach to remote gateway authentication",
   "keywords": [
     "hydrogen",
@@ -24,9 +24,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-      "atom-space-pen-views": "^2.0.5",
-      "ws": "^1.1.1",
-      "xmlhttprequest": "^1.8.0"
+    "atom-space-pen-views": "^2.0.5",
+    "ws": "^1.1.1",
+    "xmlhttprequest": "^1.8.0"
   },
   "package-deps": [
     "hydrogen"
